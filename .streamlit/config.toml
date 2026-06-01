@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#00ffcc"          # Vibrant Teal/Neon for buttons and sliders
+backgroundColor = "#0f172a"       # Deep Midnight Blue canvas background
+secondaryBackgroundColor = "#1e293b" # Slightly lighter slate blue for input cards
+textColor = "#f8fafc"             # Clean crisp white for text headings
+font = "sans serif"
