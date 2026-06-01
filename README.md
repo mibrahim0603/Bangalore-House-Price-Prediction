@@ -4,6 +4,8 @@ An end-to-end data science and machine learning project that predicts home price
 
 This project covers the entire lifecycle of a data science product: from raw data ingestion and feature engineering to building an HTTP production server and deployment of a lightweight user interface.
 
+👉 **Live Streamlit Application:** [Launch Live Dashboard](https://bangalore-house-price-prediction-ckxo5pqepr94uwgyvcpud3.streamlit.app/)
+
 ---
 
 ## 🏗️ Project Architecture & Components
@@ -49,35 +51,3 @@ During the exploratory data analysis and model building phase in Jupyter Noteboo
 
 Follow these operational instructions to spin up the prediction app environment on your local machine.
 
-### 1. Prerequisites
-Ensure you have Python installed on your computer. Clone this repository and move into the project workspace:
-```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-cd Bangalore-Real-Estate-Price-Prediction
-
-2. Run the Python Flask Server
-
-Navigate to your server directory folder framework, install the tracking package dependencies, and run the entry script:
-Bash
-
-# Navigate to the server folder
-cd server
-
-# Install the necessary library requirements
-pip install flask numpy pandas scikit-learn
-
-# Launch the backend API process
-python server.py
-
-The server will initialize, load the trained artifacts (bangalore_home_prices_model.pickle and columns.json), and start listening for data inquiries on port http://127.0.0.1:5000/.
-3. Open the Frontend Interface
-
-Because standard modern browsers block cross-origin requests when running via local directory layouts, use a dedicated web viewer to host the UI folder layout safely:
-
-    Open the project's client folder inside VS Code.
-
-    Click the "Go Live" ribbon icon at the bottom of the editor pane to launch the Live Server extension.
-
-    Access your web UI layout interface dashboard link via: http://127.0.0.1:5500/app.html
-
-Input the square footage, bedrooms, and location to see your trained predictive pipeline calculate real estate estimations in real-time!
